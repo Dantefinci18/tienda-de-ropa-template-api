@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dantefinci18/tienda-de-ropa-template-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dantefinci18/tienda-de-ropa-template-api/issues"
+  },
+  "homepage": "https://github.com/Dantefinci18/tienda-de-ropa-template-api#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
