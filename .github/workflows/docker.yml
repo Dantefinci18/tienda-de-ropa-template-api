@@ -27,9 +27,9 @@ jobs:
       - name: Build Docker image
         run: |
           docker build \
-            -t ghcr.io/Dantefinci18/tienda-de-ropa-template-api:latest .
+            -t ghcr.io/dantefinci18/tienda-de-ropa-template-api:latest .
 
       - name: Push Docker image
         run: |
           docker push \
-            ghcr.io/Dantefinci18/tienda-de-ropa-template-api:latest
+            ghcr.io/dantefinci18/tienda-de-ropa-template-api:latest
